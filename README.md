@@ -20,6 +20,10 @@ A CocoaPods library for integrating Live2D V5 into iOS projects, enabling develo
 
 ---
 
+## ⚠️ Warning
+
+The official core library is not open-source, and only static libraries for the arm64 (real device) and x86_64 (simulator) architectures are provided. Currently, arm64 simulator architecture is not supported. You can use the Rosetta simulator in Xcode for development and debugging.
+
 ## Installation
 
 ### CocoaPods
