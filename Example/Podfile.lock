@@ -1,0 +1,16 @@
+PODS:
+  - Live2DSdk (1.0.0)
+
+DEPENDENCIES:
+  - Live2DSdk (from `../`)
+
+EXTERNAL SOURCES:
+  Live2DSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Live2DSdk: 8b48e3515160edebbd1676c58808d0a7e5fc78a6
+
+PODFILE CHECKSUM: 545665af53f38cd15362d0e3cc692a510625b24e
+
+COCOAPODS: 1.16.2

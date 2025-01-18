@@ -1,0 +1,6 @@
+Run In Debug Dir
+
+lipo -create ../Debug-iphoneos/libLive2DCubismCore.a ../Debug-iphonesimulator/libLive2DCubismCore.a -output ./libLive2DCubismCore.a 
+
+Run In Release Dir
+lipo -create ../Release-iphoneos/libLive2DCubismCore.a ../Release-iphonesimulator/libLive2DCubismCore.a -output ./libLive2DCubismCore.a    
