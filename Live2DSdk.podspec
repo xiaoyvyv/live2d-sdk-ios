@@ -46,6 +46,5 @@ Pod::Spec.new do |s|
     'SWIFT_OPTIMIZATION_LEVEL' => '-Onone'
   }
 
-#   s.libraries = 'c++'
   s.frameworks = 'GLKit', 'OpenGLES'
 end
