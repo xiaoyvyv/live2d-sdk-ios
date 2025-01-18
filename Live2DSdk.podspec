@@ -28,27 +28,6 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://github.com/xiaoyvyv'
 
   s.ios.deployment_target = '12.0'
-
-# Release-iphonesos
-# Release-iphonesimulator
-#   s.subspec 'Core' do |sp|
-#     sp.ios.vendored_library = 'Live2DSdk/Live2D/Core/lib/ios/Release-iphonesimulator/libLive2DCubismCore.a'
-#   end
-#
-#   s.subspec 'Live2DSdk' do |sp|
-#     sp.public_header_files = 'Live2DSdk/Live2D/Framework/**/*.{h,hpp}'
-#     sp.source_files = 'Live2DSdk/Live2D/Framework/src/**/*.{h,hpp,c,cpp,m,mm}'
-# #     sp.requires_arc = false
-#     sp.libraries = 'c++'
-#     sp.frameworks = 'GLKit', 'OpenGLES'
-#   end
-#
-#   s.subspec 'Live2DSdk' do |sp|
-#     sp.public_header_files = 'Live2DSdk/Classes/**/*.{h,hpp}'
-#     sp.source_files = 'Live2DSdk/Classes/**/*.{h,hpp,c,cpp,m,mm}'
-#     sp.libraries = 'c++'
-#   end
-
   s.source_files = 'Live2DSdk/Classes/**/*.{h,hpp,c,cpp,m,mm}', 'Live2DSdk/Core/**/*.{h,hpp,c,cpp,m,mm}'
   s.public_header_files = 'Live2DSdk/Classes/**/*.{h,hpp}', 'Live2DSdk/Core/include/Live2DCubismCore.h'
   s.header_mappings_dir = "Live2DSdk/Classes"
