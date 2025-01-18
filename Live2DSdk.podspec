@@ -21,12 +21,11 @@ Pod::Spec.new do |s|
 # TODO: Add long description of the pod here.
 #                        DESC
 
-  s.homepage         = 'https://github.com/xiaoyvyv/bangumi'
-#   s.screenshots      = 'https://github.com/xiaoyvyv/Live2DSdk/blob/master/screenshots/iPhone6-MainScreen.png?raw=true'
+  s.homepage         = 'https://github.com/xiaoyvyv/live2d-sdk-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xiaoyvyv' => 'xiaoyvyv@gmail.com' }
-  s.source           = { :git => 'https://github.com/xiaoyvyv/Live2DSdk.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/xiaoyvyv'
+  s.author           = { 'xiaoyvyv' => 'wanghuaiyv@gmail.com' }
+  s.source           = { :git => 'https://github.com/xiaoyvyv/live2d-sdk-ios.git' }
+  s.social_media_url = 'https://github.com/xiaoyvyv'
 
   s.ios.deployment_target = '12.0'
 
